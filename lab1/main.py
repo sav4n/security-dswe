@@ -34,9 +34,6 @@ print(text)
 
 print('brute - force')
 cipher = input("Enter Cipher: ")
-key = input("Enter Key: ")
-
-
      
 text  = ""
 for i in range(0,26):
@@ -44,9 +41,3 @@ for i in range(0,26):
         text = text + decmap[fun.dec(lang[c],int(i))]
     print('\n'+ f" text : {text} , key {i}") 
     text=""
-
-
-
-    # key 16  focus
-
-    

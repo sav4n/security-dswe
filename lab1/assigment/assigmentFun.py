@@ -1,4 +1,4 @@
-n = 26
+n = 256
 def enc(m,k):
     global n
     return (m+k)%n
